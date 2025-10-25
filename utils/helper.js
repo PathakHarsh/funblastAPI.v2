@@ -2,8 +2,7 @@ import axios from "axios";
 import dotenv from "dotenv";
 dotenv.config();
 
-//const BASE_URL = process.env.BASE_URL;
-const BASE_URL = 'https://www.jiosaavan.com/api.php';
+const BASE_URL = process.env.BASE_URL;
 export async function searchForSong(query, lyrics = false, songdata = true) {
   const params = {
     __call: "autocomplete.get",
