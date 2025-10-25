@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [songs,mp3_api,unlimited_download,unlimited_songs,song_streams,github],
+  "keywords": [],
   "author": "rahul-hytrox",
   "license": "ISC",
   "type": "module",
