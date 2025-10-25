@@ -7,7 +7,8 @@ dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 5100;
-//const TOKEN_KEY = process.env.TOKEN_KEY; // when you create .env file to add custom TOKEN_KEY
+//const TOKEN_KEY = process.env.TOKEN_KEY; 
+// when you create .env file to add custom TOKEN_KEY
 const TOKEN_KEY = 'aw482qQweu299Xo';
 app.use(cors());
 app.use(express.json());
